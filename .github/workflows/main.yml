@@ -103,7 +103,7 @@ jobs:
           export SECRET_KEY=cd658d476cc15a67f687760f2de8b767
 
           # suoritetaan testit
-          poetry run robot src/tests --report
+          poetry run robot src/tests
 
           status=$?
 
@@ -112,3 +112,8 @@ jobs:
           exit $status
         env:
           PGPASSWORD: postgres_password
+
+      - uses: actions/upload-artifact@v2
+        with:
+          name: my-artifact
+          path: ./.report.html
