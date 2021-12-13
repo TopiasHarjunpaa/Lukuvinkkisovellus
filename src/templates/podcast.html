@@ -82,9 +82,9 @@ Lukuvinkkisovellus
                 <a class="dropdown-item">
                     <div class="custom-control custom-checkbox">   
                         {% if tag.get_id() in podcast.get_tag_ids() %}       
-                        <input type="checkbox" class="custom-control-input" name="tag_check" value={{ tag.get_id() }} id="tags" checked autocomplete="on">
+                        <input type="checkbox" class="custom-control-input" name="tag_check" value={{ tag.get_id() }} id={{ tag.get_name() }} checked autocomplete="on">
                         {% else %}
-                        <input type="checkbox" class="custom-control-input" name="tag_check" value={{ tag.get_id() }} id="tags">
+                        <input type="checkbox" class="custom-control-input" name="tag_check" value={{ tag.get_id() }} id={{ tag.get_name() }}>
                         {% endif %}
                         <label class="custom-control-label" for="tags">{{ tag.get_name()}}</label>  
                     </div>
