@@ -79,22 +79,24 @@ Add Tag To Podcast
     Home Page Should Be Open
     Page Should Contain  ${test_tagname_3}
 
-#Add Tag To Blog
-    #Go To Home Page
-    #Press Keys  None  PAGE_DOWN
-    #Sleep  1
-    #Click Element  xpath://*[@id="${test_blog_title}"]
-    #Click Button  Muuta tageja
-    #Press Keys  None  PAGE_DOWN
-    #Sleep  1
-    #Click Element  xpath://*[@id="${test_tagname_4}"]
-    #Click Button  Muuta tageja
-    #Click Element  submit
-    #Home Page Should Be Open
-    #Page Should Contain  ${test_tagname_4}
+Add Tag To Blog
+    Go To Home Page
+    Press Keys  None  PAGE_DOWN
+    Press Keys  None  PAGE_DOWN
+    Sleep  1
+    Click Element  xpath://*[@id="${test_blog_title}"]
+    Click Button  Muuta tageja
+    Press Keys  None  PAGE_DOWN
+    Sleep  1
+    Click Element  xpath://*[@id="${test_tagname_4}"]
+    Click Button  Muuta tageja
+    Click Element  submit
+    Home Page Should Be Open
+    Page Should Contain  ${test_tagname_4}
 
 Add Tag To Video
     Go To Home Page
+    Press Keys  None  PAGE_DOWN
     Press Keys  None  PAGE_DOWN
     Sleep  1
     Click Element  xpath://*[@id="${test_video_title_2}"]
