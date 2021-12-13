@@ -13,8 +13,8 @@ ${HOME URL}  http://${SERVER}
 
 #Tietokanta muuttujat
 # Vaihda vastaamaan käytettävää tietokantaa
-${dbname}  lukuvinkki
-${dbuser}  tino
+${dbname}  jeoleivo
+${dbuser}  jeoleivo
 ${dbpasswd}  ""
 ${script_file}  ./src/tests/robot_db_test.sql
 
