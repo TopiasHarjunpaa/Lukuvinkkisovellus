@@ -50,6 +50,18 @@ Add Multiple Tags With Valid Names
     Page Should Contain  ${test_tagname_4}
     Page Should Contain  ${test_tagname_5}
 
+Add Tag To Book
+    Go To Home Page
+    Press Keys  None  PAGE_DOWN
+    Sleep  1
+    Click Element  xpath://*[@id="${test_title}"]
+    Click Button  Muuta tageja
+    Click Element  xpath://*[@id="${test_tagname_3}"]
+    Click Button  Muuta tageja
+    Click Element  submit
+    Home Page Should Be Open
+    Page Should Contain  ${test_tagname_3}
+
 Delete Last Tag From The List
     Go To Home Page
     Click Link  Hallinnoi tageja
