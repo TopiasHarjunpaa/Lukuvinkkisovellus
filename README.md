@@ -16,6 +16,7 @@ Materiaali on lisenssoitu [GNU General Public License](https://www.gnu.org/licen
 ## Releaset
 
 - [2. Sprintin release](https://github.com/TopiasHarjunpaa/Lukuvinkkisovellus/releases/tag/v0.1.0)
+- [3. Sprintin release](https://github.com/TopiasHarjunpaa/Lukuvinkkisovellus/releases/tag/v1.0.0)
 
 ## Dokumentaatio
 
