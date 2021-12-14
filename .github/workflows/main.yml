@@ -113,14 +113,14 @@ jobs:
         env:
           PGPASSWORD: postgres_password
 
-      - name: Commit robot report
-        run: |
-          git config --global user.name 'Your Name'
-          git config --global user.email 'your-username@users.noreply.github.com'
-          git add report.html -f
-          git add log.html -f
-          git commit -m "Automated robot test report"
-          git push
+#      - name: Commit robot report
+#        run: |
+#          git config --global user.name 'Your Name'
+#          git config --global user.email 'your-username@users.noreply.github.com'
+#          git add report.html -f
+#          git add log.html -f
+#          git commit -m "Automated robot test report"
+#          git push
    
       - name: Get Repository Owner & Name
         run: |
