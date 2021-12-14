@@ -119,9 +119,9 @@ jobs:
         with:
           name: reports
           path: |
-            ./report.html
-            ./log.html
-            ./output.xml
+            report.html
+            log.html
+            output.xml
   
       - name: Download reports
         uses: actions/download-artifact@v1
