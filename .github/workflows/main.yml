@@ -118,10 +118,7 @@ jobs:
         if: always()
         with:
           name: reports
-          path: |
-            report.html
-            log.html
-            output.xml
+          path: .
   
       - name: Download reports
         uses: actions/download-artifact@v1
