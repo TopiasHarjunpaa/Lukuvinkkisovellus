@@ -122,17 +122,12 @@ jobs:
 #          git commit -m "Automated robot test report"
 #          git push
    
-      - name: Get Repository Owner & Name
-        run: |
-          export OWNER="$(echo "${{ github.repository }}" | awk -F / '{print $1}' | sed -e "s/:refs//")"
-          export REPO="$(echo "${{ github.repository }}" | awk -F / '{print $2}' | sed -e "s/:refs//")"
-          echo "REPOSITORY_OWNER=$OWNER" >> $GITHUB_ENV
-          echo "REPOSITORY_NAME=$REPO" >> $GITHUB_ENV
-      - name: Send report to commit
-        uses: joonvena/robotframework-reporter-action@v0.1
-        env:
-          GH_ACCESS_TOKEN: ${{ secrets.GH_TOKEN }}
-          REPO_OWNER: ${{ env.REPOSITORY_OWNER }}
-          COMMIT_SHA: ${{ github.sha }}
-          REPOSITORY: ${{ env.REPOSITORY_NAME }}
-          REPORT_PATH: ${{ github.workspace }}
+
+        - name: Download reports
+          uses: actions/download-artifact@v1
+          with:
+            name: reports
+        - name: Send report to commit
+          uses: joonvena/robotframework-reporter-action@v1.1
+          with:
+            gh_access_token: ${{ secrets.GH_TOKEN }}
