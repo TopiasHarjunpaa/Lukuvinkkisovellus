@@ -126,7 +126,7 @@ jobs:
         if: always()
         with:
           name: reports
-          path: reports
+          path: .
   
       - name: Download reports
         uses: actions/download-artifact@v1
