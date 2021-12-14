@@ -121,18 +121,18 @@ jobs:
       #     git add log.html -f
       #     git commit -m "Automated robot test report"
       #     git push
-          - name: Upload test results
-            uses: actions/upload-artifact@v1
-            if: always()
-            with:
-              name: reports
-              path: reports
-      
-          - name: Download reports
-            uses: actions/download-artifact@v1
-            with:
-              name: reports
-          - name: Send report to commit
-            uses: joonvena/robotframework-reporter-action@v1.1
-            with:
-              gh_access_token: ${{ secrets.GH_TOKEN }}
+      - name: Upload test results
+        uses: actions/upload-artifact@v1
+        if: always()
+        with:
+          name: reports
+          path: reports
+  
+      - name: Download reports
+        uses: actions/download-artifact@v1
+        with:
+          name: reports
+      - name: Send report to commit
+        uses: joonvena/robotframework-reporter-action@v1.1
+        with:
+          gh_access_token: ${{ secrets.GH_TOKEN }}
