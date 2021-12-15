@@ -16,7 +16,7 @@ Jotkin käyttöliittymäkomponentit oli vaikea testata robottitestillä, esim. v
 Robottitestit oli kahdessa edellisessä sprintissä yhden henkilön vastuulla ja hän ei ollut käytettävissä sprintin viimeisinä päivinä jolloin jouduttiin opettelemaan niitä vähän enemmän. Osaamisen kasaannuttua tämän osa-alueen osalta yhdelle henkilölle, oli ryhmä huonosti valmistautunut hänen pakottavien syiden aiheuttamaan poissaoloon.
 Yksi user story (tagien perusteella suodattaminen) jäi tekemättä koska työtunnit täyttyivät ja olimme huolissamme, että robottitestit hajoavat ko. ominaisuutta lisätessä.
 
-## Mikä sujui projektissa hyvin, mitä pitäisi parantaa seuraavaa kertaa varten
+## Mikä sujui projektissa hyvin, mitä pitäisi parantaa seuraavaa kertaa varten?
 Yhteistyö toimi todella hyvin, asioista saatiin hyvin sovittua ja oltiin tosi kannustavia. Jokaiselle riitti tekemistä.
 
 Asiakkaan määrittelemät storyjen toteuttaminen onnistui. Ainoastaan yksi story jäi viimeisessä sprintissä tekemättä.
@@ -28,7 +28,6 @@ Robottitestit olisi kannattanut tehdä vasta ihan sprintin lopuksi.
 Miten toimisi jos työskenneltäisiin samassa tilassa ja samanaikaisesti?
 
 ## Mitä asioita opitte?
-Projektin edetessä tuote alkaa "jähmettymään" ja tulimme varovaisemmaksi uusien ominaisuuksien lisäämisen osalta koska robottitestit hajoavat varsin herkästi ja niiden ajaminen kestää varsin pitkään. Robottitestien liian orjallinen toteuttaminen ehkä rajoitti toimintaa? Olisi pitänyt miettiä tarkemmin paljonko näitä tehdään. Välillä oli hieman epävarmaa mihin uskaltaa koskea ja mihin ei.
 
 Uusia ominaisuuksia kannattaa kokeilla erillisissä ynmpäristöissä. Esim. CI build.
 
@@ -36,7 +35,7 @@ Yhteisten aikataulujen yhteensovittaminen ja taskien toteutusjärjestys. Nyt kä
 
 Paljon pieniä hyödyllisiä yksityiskohtia siitä, miten eri osa-alueet toimivat mm. metodien ohittamista kattavuusraporteissa, tietokantakomentoja, yksittäisiä metodien toteutustapoja.
 
-Kurssilla käytetty ketterä menetelmä toimi yllättävän hyvin. Oli myös hyvin opettavaista tutustua toisten tekemään koodiin. 
+Kurssilla käytetty ketterä menetelmä toimi yllättävän hyvin. Oli myös hyvin opettavaista tutustua toisten tekemään koodiin. Yksikään ryhmän jäsenistä ei ollut aiemmin ohjelmoinut ryhmässä, joten kaikki siihen liittyvä oli uutta. 
 
 Aika hyvin pystyttiin tekemään ristiin eri alueita sovellusarkkitehtuurissa. Muiden tekemistä toiminnallisuuksista pystyi hyvin päättelemään miten jokin asia toimii ja toteuttamaan sitten itse vastaavaa.
 
@@ -46,6 +45,13 @@ Aika paljon pystyy refaktoroimaan kun arkkitehtuuri ja testit kunnossa. Servicej
 
 ## Mitä asioita olisitte halunneet oppia?
 
-Parannettavaa: projektin tietoturvavaatimuksia olisi ollut hyvä miettiä.
+Projektin tietoturvavaatimuksia olisi ollut hyvä miettiä. 
+
+Projektin alkuperäinen suunnittelu ennen ensimmäisen sprintin alkua jäi olemattomaksi. Sitä olisi ollut mukava opetella ja tehdä edes kerran. Keskustelu pöydän ääressä(meidän tapauksessamme etäkokous) tämän aiheen tiimoilta olisi luultavasti ollut hyödyllistä käydä. Aikaa oli kuitenkin hyvin rajallisesti ja tuolloin painotettiin ohjaajien toimesta projektin alulle saamisen viemää aikaa, sekä sen priorisointia. Siksi pidimme vain tavalllise sprintin suunnittelun ja toivoimme palasten loksahtelevan matkan varrella kohdilleen. Tämä lieneekin *tuottaako tämä lisäarvoa asiakkaalle*-paradigman kuollut kulma, sillä kaipaamamme projektisuunnittelu vain ennaltaehkäisee tulevia, vielä olemattomia ongelmia. Siksi sitä ei voi tälläisessa viitekehyksessä oikeuttaa yhtä helposti, kuin uuden toiminnallisuuden vimmaista kehittämistä.
 
 ## Mikä tuntui turhalta?
+
+Robottitestien liian orjallinen toteuttaminen ehkä rajoitti toimintaa. Projektin edetessä tuote alkaa "jähmettymään" ja tulimme varovaisemmaksi uusien ominaisuuksien lisäämisen osalta koska robottitestit hajoavat varsin herkästi ja niiden ajaminen kestää varsin pitkään. Olisi pitänyt miettiä tarkemmin paljonko näitä tehdään. Välillä oli hieman epävarmaa mihin uskaltaa koskea ja mihin ei.
+
+Sekä projektin pituus, että sprinteissä käytettävissä oleva aika olivat niin rajallisia, että turhuuksille ei tunutunut löytyvän tilaa. Monesti piti arvoida, palveleeko juuri tällä hetkellä kirjoittamani metodi tai testi *user storyn* asettamia tavoitteita.
+
