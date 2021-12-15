@@ -55,3 +55,11 @@ Robottitestien liian orjallinen toteuttaminen ehkä rajoitti toimintaa. Projekti
 
 Sekä projektin pituus, että sprinteissä käytettävissä oleva aika olivat niin rajallisia, että turhuuksille ei tunutunut löytyvän tilaa. Monesti piti arvoida, palveleeko juuri tällä hetkellä kirjoittamani metodi tai testi *user storyn* asettamia tavoitteita.
 
+## Projektiryhmä
+Topias Harjunpää
+Jirko Leivo
+Tino Pönni
+Simo Levanto
+Markus Aejmelaeus
+Yousef el Houch
+
