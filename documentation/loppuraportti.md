@@ -13,7 +13,7 @@ Herokun kanssa oli myös käynnistymisvaikeuksia.
 
 ### Sprintti 3
 Jotkin käyttöliittymäkomponentit oli vaikea testata robottitestillä, esim. vetovalikko peitti "submit" näppäimet.
-Robottitestit oli kahdessa edellisessä sprintissä yhden henkilön vastuulla ja hän ei ollut käytettävissä sprintin viimeisinä päivinä jolloin jouduttiin opettelemaan niitä vähän enemmän.
+Robottitestit oli kahdessa edellisessä sprintissä yhden henkilön vastuulla ja hän ei ollut käytettävissä sprintin viimeisinä päivinä jolloin jouduttiin opettelemaan niitä vähän enemmän. Osaamisen kasaannuttua tämän osa-alueen osalta yhdelle henkilölle, oli ryhmä huonosti valmistautunut hänen pakottavien syiden aiheuttamaan poissaoloon.
 Yksi user story (tagien perusteella suodattaminen) jäi tekemättä koska työtunnit täyttyivät ja olimme huolissamme, että robottitestit hajoavat ko. ominaisuutta lisätessä.
 
 ## Mikä sujui projektissa hyvin, mitä pitäisi parantaa seuraavaa kertaa varten
@@ -27,7 +27,7 @@ Robottitestit olisi kannattanut tehdä vasta ihan sprintin lopuksi.
 
 Miten toimisi jos työskenneltäisiin samassa tilassa ja samanaikaisesti?
 
-## Mitä asioita opitte, mitä asioita olisitte halunneet oppia, mikä tuntui turhalta
+## Mitä asioita opitte?
 Projektin edetessä tuote alkaa "jähmettymään" ja tulimme varovaisemmaksi uusien ominaisuuksien lisäämisen osalta koska robottitestit hajoavat varsin herkästi ja niiden ajaminen kestää varsin pitkään. Robottitestien liian orjallinen toteuttaminen ehkä rajoitti toimintaa? Olisi pitänyt miettiä tarkemmin paljonko näitä tehdään. Välillä oli hieman epävarmaa mihin uskaltaa koskea ja mihin ei.
 
 Uusia ominaisuuksia kannattaa kokeilla erillisissä ynmpäristöissä. Esim. CI build.
@@ -42,6 +42,10 @@ Aika hyvin pystyttiin tekemään ristiin eri alueita sovellusarkkitehtuurissa. M
 
 Alusta asti käytössä oleva arkkitehtuuripohja teki työskentelystä selkeämpää. 
 
+Aika paljon pystyy refaktoroimaan kun arkkitehtuuri ja testit kunnossa. Serviceja ja repositorioita pystyttiin muokkaamaan aika nopeasti.
+
+## Mitä asioita olisitte halunneet oppia?
+
 Parannettavaa: projektin tietoturvavaatimuksia olisi ollut hyvä miettiä.
 
-Aika paljon pystyy refaktoroimaan kun arkkitehtuuri ja testit kunnossa. Serviceja ja repositorioita pystyttiin muokkaamaan aika nopeasti.
+## Mikä tuntui turhalta?
