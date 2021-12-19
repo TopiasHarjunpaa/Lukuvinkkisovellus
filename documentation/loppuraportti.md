@@ -19,29 +19,29 @@ Yksi user story (tagien perusteella suodattaminen) jäi tekemättä koska työtu
 ## Mikä sujui projektissa hyvin, mitä pitäisi parantaa seuraavaa kertaa varten?
 Yhteistyö toimi todella hyvin, asioista saatiin hyvin sovittua ja oltiin tosi kannustavia. Jokaiselle riitti tekemistä.
 
-Asiakkaan määrittelemät storyjen toteuttaminen onnistui. Ainoastaan yksi story jäi viimeisessä sprintissä tekemättä.
+Asiakkaan määrittelemien storyjen toteuttaminen onnistui. Ainoastaan yksi story jäi viimeisessä sprintissä tekemättä.
 
-Sovelluksen ja tietokannan rakenne saatiin varsin selkeäksi ja laajennettavaksi. Uusien ominaisuuksien lisääminen onnistui hyvin mutta haittapuolena oli se, että robottitestejä tarvittiin paljon. Robottitestien määrä kannattaisi pitää mahdollisimman pienenä tästä syystä.
+Sovelluksen ja tietokannan rakenne saatiin varsin selkeäksi ja laajennettavaksi.
 
-Robottitestit olisi kannattanut tehdä vasta ihan sprintin lopuksi.
+Uusien ominaisuuksien lisääminen onnistui hyvin mutta haittapuolena oli se, että robottitestit usein hajosivat samalla. Tästä syystä robottitestien määrä olisi kannattanut pitää mahdollisimman pienenä ja niiden toteuttaminen olisi pitänyt siirtää aina sprintin loppuun.
 
-Miten toimisi jos työskenneltäisiin samassa tilassa ja samanaikaisesti?
+Etätyöskentely sujui hyvin. Olisi kuitenkin mielenkiintoista tietää miten samaan aikaan samassa tilassa toimiminen olisi vaikuttanut työskentelyyn ja lopputulokseen.
 
 ## Mitä asioita opitte?
 
-Uusia ominaisuuksia kannattaa kokeilla erillisissä ynmpäristöissä. Esim. CI build.
+Uusia ominaisuuksia kannattaa kokeilla erillisissä ympäristöissä. Esim. CI build.
 
 Yhteisten aikataulujen yhteensovittaminen ja taskien toteutusjärjestys. Nyt kävi muutaman kerran niin, että kaksi henkilöä teki samaa taskia.
 
 Paljon pieniä hyödyllisiä yksityiskohtia siitä, miten eri osa-alueet toimivat mm. metodien ohittamista kattavuusraporteissa, tietokantakomentoja, yksittäisiä metodien toteutustapoja.
 
-Kurssilla käytetty ketterä menetelmä toimi yllättävän hyvin. Oli myös hyvin opettavaista tutustua toisten tekemään koodiin. Yksikään ryhmän jäsenistä ei ollut aiemmin ohjelmoinut ryhmässä, joten kaikki siihen liittyvä oli uutta. 
+Kurssilla käytetyt ketterät menetelmät toimivat yllättävän hyvin. Oli myös hyvin opettavaista tutustua toisten tekemään koodiin. Yksikään ryhmän jäsenistä ei ollut aiemmin ohjelmoinut ryhmässä, joten kaikki siihen liittyvä oli uutta. 
 
-Aika hyvin pystyttiin tekemään ristiin eri alueita sovellusarkkitehtuurissa. Muiden tekemistä toiminnallisuuksista pystyi hyvin päättelemään miten jokin asia toimii ja toteuttamaan sitten itse vastaavaa.
+Kykenimme hyvin tekemään ristiin eri alueita sovellusarkkitehtuurissa. Muiden tekemistä toiminnallisuuksista pystyi hyvin päättelemään miten jokin asia toimii ja toteuttamaan sitten itse vastaavaa.
 
 Alusta asti käytössä oleva arkkitehtuuripohja teki työskentelystä selkeämpää. 
 
-Aika paljon pystyy refaktoroimaan kun arkkitehtuuri ja testit kunnossa. Serviceja ja repositorioita pystyttiin muokkaamaan aika nopeasti.
+Refaktoroiminen helpottuu merkittävästi kun arkkitehtuuri ja testit ovat kunnossa. Serviceja ja repositorioita kykeni muokkaamaan nopeasti.
 
 ## Mitä asioita olisitte halunneet oppia?
 
@@ -56,15 +56,10 @@ Robottitestien liian orjallinen toteuttaminen ehkä rajoitti toimintaa. Projekti
 Sekä projektin pituus, että sprinteissä käytettävissä oleva aika olivat niin rajallisia, että turhuuksille ei tunutunut löytyvän tilaa. Monesti piti arvoida, palveleeko juuri tällä hetkellä kirjoittamani metodi tai testi *user storyn* asettamia tavoitteita.
 
 ## Projektiryhmä
-Topias Harjunpää
-
-Jirko Leivo
-
-Tino Pönni
-
-Simo Levanto
-
-Markus Aejmelaeus
-
+Topias Harjunpää,
+Jirko Leivo,
+Tino Pönni,
+Simo Levanto,
+Markus Aejmelaeus,
 Yousef el Houch
 
