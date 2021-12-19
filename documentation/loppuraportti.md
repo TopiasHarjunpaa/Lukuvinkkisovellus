@@ -57,9 +57,14 @@ Sekä projektin pituus, että sprinteissä käytettävissä oleva aika olivat ni
 
 ## Projektiryhmä
 Topias Harjunpää
+
 Jirko Leivo
+
 Tino Pönni
+
 Simo Levanto
+
 Markus Aejmelaeus
+
 Yousef el Houch
 
