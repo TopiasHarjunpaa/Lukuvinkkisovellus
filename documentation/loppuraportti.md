@@ -61,5 +61,5 @@ Jirko Leivo,
 Tino Pönni,
 Simo Levanto,
 Markus Aejmelaeus,
-Yousef el Houch
+Yousef El Houch
 
