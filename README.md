@@ -26,6 +26,7 @@ Materiaali on lisensoitu [GNU General Public License](https://www.gnu.org/licens
 - [Definition of Done](https://github.com/TopiasHarjunpaa/Lukuvinkkisovellus/blob/main/documentation/definition_of_done.md)
 - [Sprint review](https://jamboard.google.com/d/1hcJFA41aawSID_24-UuxcD_BTQnUseG9cyPpsFXyDnY/viewer)
 - [Loppuraportti](https://github.com/TopiasHarjunpaa/Lukuvinkkisovellus/blob/main/documentation/loppuraportti.md)
+- [Hyväksymistestit - Robot Framework](https://github.com/TopiasHarjunpaa/Lukuvinkkisovellus/tree/main/src/tests)
 
 ## Asennus
 
