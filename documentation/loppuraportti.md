@@ -1,4 +1,4 @@
-## Kerrataan jokaisen sprintin aikana kohdatut ongelmat (prosessiin-, projektityöskentelyyn- ja teknisiin asioihin liittyvät)
+## Sprinttien aikana kohdatut ongelmat (prosessiin-, projektityöskentelyyn- ja teknisiin asioihin liittyvät)
 ### Sprintti 1
 Suunnitteluun ja yhteisen näkemyksen hahmottamiseen olisi voinut käyttää enemmän aikaa. 
 Hyvä kuitenkin, että heti alkuun kansiorakenne tehtiin siltä pohjalta mitä arkkitehtuuria tullaan käyttämään.
@@ -6,7 +6,7 @@ Tietokannan valinta aiheutti päänvaivaa ja ylimääräistä työtä, aluksi va
 User storyja ei purettu riittävän hyvin taskeiksi, jolloin työnjako jäi hieman roikkumaan ilmaan.
 
 ### Sprintti 2
-Etätyöskentelyssä jouduttiin tekemään ratkaisuja, ilman että niistä voitiin kunnolla keskustella muiden kanssa.
+Etätyöskentelyssä jouduttiin tekemään ratkaisuja ilman että niistä voitiin kunnolla keskustella muiden kanssa.
 Tyylisäännöistä ja koodin refaktoroinnista keskusteleminen jäi aikalailla käymättä.
 CI:n kanssa oli kaikenlaisia ongelmia: testitietokannan käyttäminen CI:ssä osoittautui alkuun haastavaksi samaten se, että saadaan robottitestit ajettua CI:ssä. 
 Herokun kanssa oli myös käynnistymisvaikeuksia.
@@ -39,15 +39,15 @@ Kurssilla käytetyt ketterät menetelmät toimivat yllättävän hyvin. Oli myö
 
 Kykenimme hyvin tekemään ristiin eri alueita sovellusarkkitehtuurissa. Muiden tekemistä toiminnallisuuksista pystyi hyvin päättelemään miten jokin asia toimii ja toteuttamaan sitten itse vastaavaa.
 
-Alusta asti käytössä oleva arkkitehtuuripohja teki työskentelystä selkeämpää. 
+Alusta asti käytössä oleva arkkitehtuuripohja teki työskentelystä selkeämpää ja mahdollisti nopean oppimisen, kun tekijä siirtyi tekemään uutta osa-aluetta. 
 
 Refaktoroiminen helpottuu merkittävästi kun arkkitehtuuri ja testit ovat kunnossa. Serviceja ja repositorioita kykeni muokkaamaan nopeasti.
 
 ## Mitä asioita olisitte halunneet oppia?
 
-Projektin tietoturvavaatimuksia olisi ollut hyvä miettiä. 
+Projektin tietoturvavaatimuksia olisi ollut hyvä miettiä tarkemmin. Nyt mentiin aikalailla perusolettamuksilla eli injektiot ja cross-site -uhat oli otettu huomioon.  
 
-Projektin alkuperäinen suunnittelu ennen ensimmäisen sprintin alkua jäi olemattomaksi. Sitä olisi ollut mukava opetella ja tehdä edes kerran. Keskustelu pöydän ääressä(meidän tapauksessamme etäkokous) tämän aiheen tiimoilta olisi luultavasti ollut hyödyllistä käydä. Aikaa oli kuitenkin hyvin rajallisesti ja tuolloin painotettiin ohjaajien toimesta projektin alulle saamisen viemää aikaa, sekä sen priorisointia. Siksi pidimme vain tavalllisen sprintin suunnittelun ja toivoimme palasten loksahtelevan matkan varrella kohdilleen. Tämä lieneekin *tuottaako tämä lisäarvoa asiakkaalle*-ajattelutavan kuollut kulma, sillä kaipaamamme projektisuunnittelu vain ennaltaehkäisee tulevia, vielä olemattomia ongelmia. Siksi sitä ei voi tälläisessa viitekehyksessä oikeuttaa yhtä helposti, kuin uuden toiminnallisuuden vimmaista kehittämistä.
+Projektin alkuperäinen suunnittelu ennen ensimmäisen sprintin alkua jäi olemattomaksi. Sitä olisi ollut mukava opetella ja tehdä edes kerran. Keskustelu pöydän ääressä (meidän tapauksessamme etäkokous) tämän aiheen tiimoilta olisi luultavasti ollut hyödyllistä käydä. Aikaa oli kuitenkin hyvin rajallisesti ja tuolloin painotettiin ohjaajien toimesta projektin alulle saamisen viemää aikaa, sekä sen priorisointia. Siksi pidimme vain tavalllisen sprintin suunnittelun ja toivoimme palasten loksahtelevan matkan varrella kohdilleen. Tämä lieneekin *tuottaako tämä lisäarvoa asiakkaalle*-ajattelutavan kuollut kulma, sillä kaipaamamme projektisuunnittelu vain ennaltaehkäisee tulevia, vielä olemattomia ongelmia. Siksi sitä ei voi tälläisessa viitekehyksessä oikeuttaa yhtä helposti, kuin uuden toiminnallisuuden vimmaista kehittämistä.
 
 ## Mikä tuntui turhalta?
 
